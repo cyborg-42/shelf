@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# SQLite databases
+*.db
+*.sqlite3
+
+# Virtual environment
+.venv/
+
+# IDE
+.idea/workspace.xml
+.idea/caches/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Stray server run artifacts (Windows reserved-name file + old log/pid files)
+backend/nul
+backend/server.log
+backend/server.out
+backend/server.pid
+backend/server_output.txt
+
+# Archived pre-YOLO test files (kept locally for reference, not tracked)
+archive/
